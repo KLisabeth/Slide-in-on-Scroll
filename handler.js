@@ -12,8 +12,8 @@ function debounce(func, wait = 20, immediate = true) {
       if (callNow) func.apply(context, args);
     };
   };
-
-  function checkSlide() {
+// Well, seems like someone did my part of work, thanks i guess =D
+  function checkSlide() { 
     sliderImages.forEach(sliderImage => {
       // half way through the image
       const slideInAt = (window.scrollY + window.innerHeight) - sliderImage.height / 2;
